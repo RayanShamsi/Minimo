@@ -1,0 +1,326 @@
+*{
+    margin=0;
+    padding=0;
+}
+
+header{
+     width: 90%;
+     margin: auto;
+     overflow:hidden;
+     padding: 34px;
+}
+
+.logo{ 
+    width: 20%; 
+    float: left;
+
+}
+
+nav{
+    width: 50%;
+    float: right;
+    /* margin-top: 0; */
+}
+
+
+nav ul{
+
+list-style: none;
+
+margin-left: 66px;
+}
+
+nav ul li{
+float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    margin-left: 65px;
+    /* margin-top: 0%; */
+}
+
+.banner{
+width: 90%;
+margin: auto;
+
+}
+.banner img{
+    width: 100%;
+}
+
+.photodiary{ width: 80%; margin: auto;
+
+}
+
+.photodiary h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14pt;
+
+}
+
+.photodiary h1{
+    color: #626262;
+    
+
+}
+
+.photodiary p {
+
+}
+
+.lifestyle{
+width: 80%;
+margin: auto;
+}
+
+.lifestyle_one {
+    width: 48%;
+    float: left;
+
+}
+.lifestyle_one img{
+    width: 100%;
+    margin: auto;
+}
+
+.lifestyle_one h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    
+
+}
+
+.lifestyle_one h1 {
+text-transform: capitalize;
+font-weight: 400;
+font-size: 30px;
+color: #626262;
+}
+
+.lifestyle_one p{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #626262;
+}
+
+.lifestyle_two {
+    width: 48%;
+    float: right;
+
+}
+.lifestyle_two img{
+    width: 100%;
+    margin: auto;
+
+}
+
+.lifestyle_two h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+}
+
+.lifestyle_two h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+.lifestyle_two p{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #626262;
+}
+
+.nd_photodiary{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.nd_photodiary_one{
+width: 48%;
+margin bottom: 50px;
+float: left;
+}
+
+.nd_photodiary_one img{
+
+width: 100%;
+margin: auto;
+
+}
+
+.nd_photodiary_one h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+
+}
+
+.nd_photodiary_one h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+.nd_photodiary_one p {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #626262;
+
+}
+
+.nd_photodiary_two{
+    width: 48%;
+    margin: auto;
+    float: right;
+    }
+    
+    .nd_photodiary_two img{
+    
+    width: 100%;
+    margin: auto;
+    
+    }
+    
+    .nd_photodiary_two h5 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+        color: #626262;
+    
+    }
+    
+    .nd_photodiary_two h1 {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 30px;
+        color: #626262;
+        margin-bottom: 20px;
+    }
+    
+    .nd_photodiary_two p {
+        text-transform: capitalize;
+        font-size: 14px;
+        color: #626262;
+        }
+
+    .newsletter{
+       background-color: #f0f0f0;
+       margin: 22px 0px;
+       padding: 50px 0px;
+    }
+    .new-content{
+       width: 23%;
+       margin: auto;
+       position: relative;
+    }
+    .new-content h1{
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 30px;
+        color: #626262;
+        margin-bottom: 55px;
+    }
+    .new-content input{
+
+border: none;
+
+border-bottom: 1px solid #626262;
+
+width: 100%;
+
+background: transparent;
+
+margin-top: 0px;
+}
+.new-content input:focus{
+    outline:none;
+}
+   
+.new-content input::placeholder{
+   color:#626262;
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.load{
+    padding: 100px 0;
+    text-align: center;
+
+}
+.load input{
+    background-color: transparent;
+    border: none;
+    border: 1px solid black; 
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    cursor: pointer;
+}
+footer{
+    background-color: #f0f0f0; 
+
+}
+.footer{
+        width: 80%;
+        margin: auto;
+        background-color: #f0f0f0;
+        overflow: hidden;
+        padding: 50px 0;
+}
+.terms{
+    width: 30%;
+    float: left;
+}
+.terms ul{
+        list-style: none;
+    
+}
+.terms ul li{
+    float: left;
+    
+}
+.terms ul li a{
+    text-decoration: none;
+    color: #626262;
+    margin-left: 23px;
+    text-transform: capitalize;
+}
+.social-icon{
+    width: 30%;
+    float: right;
+}
+.social-icon ul{
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    text-align: right;
+
+}
+.social-icon ul li{
+    float: left;
+
+}
+.social-icon ul li a{
+    text-decoration: none;
+    color: #626262;
+    margin-left: 23px;
+    text-transform: capitalize;
+}
